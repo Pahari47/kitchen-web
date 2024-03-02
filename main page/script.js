@@ -30,5 +30,15 @@ function swiperAnimation(){
       });
 }
 
+function loaderAnimation(){
+  var loader = document.querySelector("#loader")
+setTimeout(function(){
+  loader.style.top = "-100%"
+},4300)
+}
+
 swiperAnimation()
 page3Animation()
+loaderAnimation()
+
+
