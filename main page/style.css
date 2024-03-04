@@ -406,7 +406,7 @@ body {
 }
 
 #page5 {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-color: #e2dfdd;
     padding: 5vw 2vw;
@@ -500,6 +500,17 @@ body {
     border-top: 1px solid #dadada;
     height: 10vh;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-bottom .sociallinks{
+    padding-top: 5px;
+    font-size: 1.5vw;
+}
+#footer-bottom .sociallinks a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
 }
 
 #goluu1 {
